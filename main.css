@@ -1,0 +1,267 @@
+.image-container{
+	background-image: url('palace2.jpg');
+	background-repeat: no-repeat;
+	background-position:center;
+	margin:0;
+	
+	height: 100%;
+	
+	
+	
+}
+.nz   {
+	color: indigo;
+	font-family: arial;
+	font-size: 70px;
+	margin: 25px;
+	width: 750px;
+	height: 300px;
+	position: absolute;
+	top: 50px;
+	left: 200px; 
+  }
+ .nz {
+	  animation-direction: reverse;
+	  animation-duration: 3s;
+	  animation-name: bounce; 
+	  animation-timing-function:linear;
+  }
+ @keyframes bounce {
+	from {
+		 margin-left: 0;
+		 }
+	 to {
+		 margin-left: 600px;
+		 }
+ }
+  .nz2, .nz3, .nz4, .nz5 {
+	font-style: cursive;
+	color: navy;
+	font-size: 80px;
+	margin: 25px;
+	width: 700px;
+	  
+  }
+  
+ 
+ .nzv {
+	font-family: arial;
+	font-size: 30px;
+	margin: 80px;
+	width: 1400px;
+	background: #B0C4DE;	
+ }
+ 
+.nzv2 {
+	font-family: arial;
+	font-size: 30px;
+	margin: 80px;
+	width: 1400px;
+	background: #90EE90;
+	
+ }
+.nzv3 {
+	font-family: arial;
+	font-size: 30px;
+	margin: 80px;
+	width: 1400px;
+	background: #5F9EA0;
+	
+ }
+.nzv4 {
+	font-family: arial;
+	font-size: 30px;
+	margin: 80px;
+	width: 1400px;
+	background: #FFDAB9;
+	
+ }
+.nzv5 {
+	font-family: arial;
+	font-size: 30px;
+	margin: 80px;
+	width: 1400px;
+	background: #F0E68C;
+	
+ }
+.nzv6 {
+	font-family: arial;
+	font-size: 30px;
+	margin: 80px;
+	width: 1400px;
+	background: #FFEFD5;
+	
+ }
+.nzv7 {
+	font-family: arial;
+	font-size: 30px;
+	margin: 80px;
+	width: 1400px;
+	background: #FA8072;
+	
+ }
+.nzv8 {
+	font-family: arial;
+	font-size: 30px;
+	margin: 80px;
+	width: 1400px;
+	background: #E9967A;
+	
+ }
+.nzv9 {
+	font-family: arial;
+	font-size: 30px;
+	margin: 80px;
+	width: 1400px;
+	background: #FFA07A;
+	
+ }
+.nzv10 {
+	font-family: arial;
+	font-size: 30px;
+	margin: 80px;
+	width: 1400px;
+	background: #E6E6FA;
+	
+ }
+.nzv11 {
+	font-family: arial;
+	font-size: 30px;
+	margin: 80px;
+	width: 1400px;
+	background: #D8BFD8;
+	
+ }
+.nzv12 {
+	font-family: arial;
+	font-size: 30px;
+	margin: 80px;
+	width: 1400px;
+	background: #DDA0DD;
+	
+ }
+ .nzv13 {
+	font-family: arial;
+	font-size: 30px;
+	margin: 80px;
+	width: 1400px;
+	background: #DB7093;
+	
+ }
+ .nzv14 {
+	font-family: arial;
+	font-size: 30px;
+	margin: 80px;
+	width: 1400px;
+	background: #FF6347;
+	
+ }
+ .img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8, .img9, .img10, .img11, .img12, .img13, .img14{
+	width: 520px;
+	height: 330px;
+	padding: 15px;
+	border-radius: 30%;
+ }
+.fl {
+	position: absolute;	
+    top: 3px;	   
+	left: 600px;
+}
+.kim {
+	position: absolute;	
+    top: 3px;	   
+	left: 700px;
+	animation-iteration-count: infinite ;
+	animation-direction: alternate;
+	animation-duration: 2s;
+	animation-name: move; 
+	animation-timing-function:linear;
+	  
+ }
+ @keyframes move {
+	0% {
+		top: 10%;
+		left: 700px;
+	}
+	40 {
+		top: 20%;
+		left: 700px;
+		
+	}
+ }
+	
+
+.sticks, .hn {
+	  position: absolute;	
+      top: 4px;	   
+	  left: 750px;
+	  animation-iteration-count: infinite ;
+	  animation-direction: alternate;
+	  animation-duration: 3s;
+	  animation-name: slidein; 
+	  animation-timing-function:linear;
+	  
+ }
+ @keyframes slidein {
+	from {
+		margin-right: 0%;
+		width: 0%;
+	}
+	to {
+		margin-left: 600px;
+		width: 20%;
+	}
+ }
+
+ .hrt {
+       position: absolute;	
+       top: 3px;	   
+	   left: 450px;
+       animation: pulsing 3s infinite;	  
+      }
+  @keyframes pulsing {
+	0% {
+		transform: scale(0.5, 0.5);
+		}
+	50% {
+		transform: scale(1.0, 1.0);
+	}
+	100% {
+		transform: scale(0.5, 0.5);
+	}
+ }
+ 
+ .mal {
+	  margin: 25px 15px;
+	  
+	  	  
+ }
+ 
+ .mal:hover {
+	  cursor: pointer;
+  }
+ .men{
+	float:left;
+	font-size:40px;
+	color:white;
+	width:212px;       
+}
+.men ul {
+	display: none;
+	margin: 0px;
+	padding:0px;
+}
+.men li {
+	list-style: none;	
+}
+.men:hover > ul {
+	display: block;
+} 
+.men li a{	
+	text-decoration:none;	
+}
+.men li a{
+	color:purple;
+}
+.men li a:hover{
+	color:black;
